@@ -17,6 +17,7 @@ for i in range(limit):  # Use range(limit) instead of limit
 
   def get_random_word(terms):
     keys = list(terms.keys())
+    random.shuffle(keys)
     random_index = random.randint(0, len(keys) - 1)
     return keys[random_index]
 
@@ -117,7 +118,7 @@ else:
 
 
 
-# by chance, if above code doesnot work, use 👇
+#  just in case, if the above code doesn't work, use 👇
 
 
 # import random
