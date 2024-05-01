@@ -1,4 +1,5 @@
-Wordly - Vocab Builder
+Wordly - Vocab Builder.
+
 Wordly is a simple Python application that helps you build your vocabulary. You can add new words to the words.txt file, and the app will generate multiple-choice questions (MCQs) based on the words you've added.
 
 Usage:
