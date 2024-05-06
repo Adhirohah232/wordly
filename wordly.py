@@ -151,10 +151,11 @@ for i in range(limit):  # Use range(limit) instead of limit
       
     
 
+hello = 0
+if(hello=1):
+  print(hello)
 
-
-
-
+# just for checking
 
 if (limit == 1):
     if (sum == limit):
